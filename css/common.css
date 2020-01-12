@@ -1,0 +1,68 @@
+/*公共样式*/
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot?7kkyc2');
+	src: url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+		url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+		url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.fr .icomoon {
+	font-family: 'icomoon';
+	font-size: 16px;
+	line-height: 26px;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.style-red {
+	color: #c81623;
+}
+.spacer {
+	width: 1px;
+	height: 12px;
+	background-color: #666;
+	margin: 9px 12px 0;
+}
+/*版心*/
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* shortcut */
+.shortcut {
+	height: 31px;
+	line-height: 31px;
+	background-color: #f1f1f1;
+}
+.shortcut li {
+	float: left;
+}
+/* header */
+.header {
+	position: relative;
+	height: 105px;
+	background-color: skyblue;
+}
+.logo {
+	position: absolute;
+	top: 25%;
+	left: 0;
+	width: 134px;
+	height: 42px;
+	
+}
+.logo a {
+	display: block;
+	width: 100%;
+	height: 42px;
+	background: url(http://misc.360buyimg.com/jdf/1.0.0/unit/global-header/5.0.0/i/jdlogo-201708-@1x.png) no-repeat;
+	text-indent: -2em;
+	overflow: hidden;
+}
