@@ -137,3 +137,42 @@
     background-color: #b1191a;
     color: white;
 }
+/* recommend */
+.recommend {
+    margin-top: 10px;
+    height: 163px;
+    background-color: skyblue;
+}
+.recommend_hd {
+    float: left;
+    width: 200px;
+    height: 100%;
+    text-align: center;
+    background-color: #5c5251;
+}
+.recommend_hd img {
+    
+    margin: 30px 0 10px 0;
+}
+.recommend_hd h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+.recommend_bd {
+    float: left;
+    width: 1000px;
+    height: 100%;
+    background-color: #ebebeb;
+}
+.recommend_bd li {
+    float: left;
+    width: 249px;
+    height: 145px;
+    margin-top: 10px;
+    border-right: 1px solid #ccc;
+    
+}
+.recommend_last {
+    border-right: none!important;
+}
