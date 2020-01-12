@@ -1,0 +1,139 @@
+.main {
+    margin: 10px  0 0 219px;
+    width: 980px;
+    height: 455px;
+    
+}
+.focus {
+    position: relative;
+    float: left;
+    width: 720px;
+    height: 455px;
+    overflow: hidden;
+    background-color: purple;
+}
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+    
+}
+.arrow_l,
+.arrow_r {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, .3);
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.arrow_r {
+    right: 0;
+}
+.circle li {
+    float: left;
+    width: 8px;
+    margin: 0 5px;
+    height: 8px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.circle li:hover {
+    cursor: pointer;
+    background-color: #fff;
+}
+.circle {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+.news {
+    height: 163px;
+    border:1px solid #ccc;
+    
+}
+
+.bargain {
+    height: 75px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.news_hd {
+    
+    padding-left: 15px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px dotted #ccc;
+}
+.news_hd a {
+    float: right;
+    padding-right: 15px;
+    font-size: 12px;
+}
+.news_bd {
+    height: 75px;
+    width: 100%;
+    margin-top: 5px;
+}
+.news_bd li {
+    
+    width: 100%;
+    height: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+.news_bd li a {
+    padding: 0 5px;
+}
+.lifeservice {
+    height: 208px;
+    border:1px solid #ccc;
+    border-top: none;
+    
+    overflow: hidden;
+}
+.lifeservice ul {
+    width: 252px;
+    
+}
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.lifeservice li a {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+.lifeservice li p {
+    text-align: center;
+    color: black;
+}
+.service_ico {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 10px auto;
+    background: url(../img/icons.png) no-repeat -17px -16px;
+}
+.hot {
+    position: absolute;
+    line-height: 15px;
+    height: 15px;
+    top: 0;
+    right: 0;
+    background-color: #b1191a;
+    color: white;
+}
