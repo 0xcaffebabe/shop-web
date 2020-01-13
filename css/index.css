@@ -221,3 +221,31 @@
     line-height: 32px;
     border-bottom: 1px solid #ccc;
 }
+/* fixedtool */
+.fixedtool {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -676px;
+    background-color: #fff;
+    width: 66px;
+    
+}
+.fixedtool li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 1s ease 0s;
+}
+.fixedtool .current {
+    background-color: #c81623;
+    color: white;
+}
+.fixedtool li:hover {
+    background-color: #c81623;
+    color: white;
+    cursor: pointer;
+    
+}
