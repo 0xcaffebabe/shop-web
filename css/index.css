@@ -141,7 +141,7 @@
 .recommend {
     margin-top: 10px;
     height: 163px;
-    background-color: skyblue;
+    
 }
 .recommend_hd {
     float: left;
@@ -175,4 +175,49 @@
 }
 .recommend_last {
     border-right: none!important;
+}
+/* floor */
+.box_hd {
+    height: 30px;
+    
+    border-bottom: 2px solid #c81623;
+}
+.box_hd h3 {
+    font-size: 18px;
+    color: #c81623;
+}
+.tab_list {
+    line-height: 30px;
+}
+.tab_list li {
+    float: left;
+}
+.tab_list li a {
+    padding: 0 15px;
+}
+.box_bd {
+    height: 360px;
+    
+}
+.tab_item {
+    height: 360px;
+}
+.tab_item li {
+    float: left;
+}
+.w209 {
+    width: 209px;
+}
+.w329 {
+    width: 329px;
+}
+.w219 {
+    width: 219px;
+}
+.tab_item_list li {
+    width: 86px;
+    height: 32px;
+    margin-left: 10px;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
 }
