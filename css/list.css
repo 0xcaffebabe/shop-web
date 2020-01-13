@@ -94,3 +94,36 @@
 .sk_bd ul {
     width: 1212px;
 }
+/* page */
+.page {
+    margin: 40px 0;
+    text-align: center;
+}
+.page_num a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+.pn_prev,
+.pn_next {
+    width: 82px!important;
+}
+.page_num .current,
+.page_num .dotted {
+    border: 0;
+    background-color: transparent;
+}
+.page_skip input {
+    width: 46px;
+    height: 36px;
+    text-align: center;
+}
+.page_skip button {
+    width: 54px;
+    height: 36px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+}
