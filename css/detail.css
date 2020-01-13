@@ -26,7 +26,7 @@
     position: relative;
     margin-top: 60px;
     height: 60px;
-    background-color: pink;
+    
 }
 .list_item {
     width: 320px;
@@ -193,4 +193,90 @@
     bottom: 0;
     right: 0;
     
+}
+/* 产品详情 */
+.aside {
+    width: 208px;
+}
+.detail {
+    width: 978px;
+}
+.tab_list {
+    height: 34px;
+    
+}
+.tab_list li {
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+}
+.first_tab {
+    width: 104px;
+}
+.second_tab {
+    width: 103px;
+    border-left: 1px solid #ccc;
+}
+.tab_list .current {
+    background-color: #fff;
+    color: #c81623;
+    border-bottom: none;
+}
+.tab_con {
+    padding: 0 10px;
+}
+.tab_con li {
+    border-bottom: 1px solid #ccc;
+}
+.tab_con li h5 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    font-weight: 400;
+}
+.aside_price {
+    font-weight: 7000;
+    margin: 10px 0;
+}
+.as_addcart {
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    width: 88px;
+    border: 1px solid #ccc;
+    margin: 10px auto;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.detail_tab_list {
+    height: 39px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.detail_tab_list li {
+    float: left;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 20px;
+    text-align: center;
+}
+.detail_tab_list .current {
+    background-color: #c81623;
+    color: white;
+}
+.item_info {
+    padding: 20px 0 0 20px;
+}
+.item_info li {
+    line-height: 22px;
+}
+.more {
+    font-weight: 700;
+}
+.product_detail {
+    margin-bottom: 50px;
 }
