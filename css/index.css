@@ -12,6 +12,13 @@
     overflow: hidden;
     background-color: purple;
 }
+.focus ul {
+    position: absolute;
+    width: 3700px;
+}
+.focus li {
+    float: left;
+}
 .newsflash {
     float: right;
     width: 250px;
@@ -20,6 +27,7 @@
 }
 .arrow_l,
 .arrow_r {
+    display: none;
     position: absolute;
     top: 50%;
     margin-top: -20px;
@@ -30,6 +38,7 @@
     color: white;
     text-align: center;
     font-size: 18px;
+    z-index: 10;
 }
 .arrow_r {
     right: 0;
@@ -42,6 +51,9 @@
     background-color: transparent;
     border: 1px solid white;
     border-radius: 50%;
+}
+.circle .current {
+    background-color: #fff;
 }
 .circle li:hover {
     cursor: pointer;
